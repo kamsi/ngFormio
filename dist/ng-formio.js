@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("jquery"));
+		module.exports = factory(require("jQuery"));
 	else if(typeof define === 'function' && define.amd)
-		define(["jquery"], factory);
+		define(["jQuery"], factory);
 	else if(typeof exports === 'object')
-		exports["ngformio"] = factory(require("jquery"));
+		exports["ngformio"] = factory(require("jQuery"));
 	else
-		root["ngformio"] = factory(root["jquery"]);
+		root["ngformio"] = factory(root["jQuery"]);
 })(window, function(__WEBPACK_EXTERNAL_MODULE_jquery__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -100139,7 +100139,7 @@ module.exports = function(module) {
 
 /***/ "jquery":
 /*!*************************!*\
-  !*** external "jquery" ***!
+  !*** external "jQuery" ***!
   \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {

@@ -66,7 +66,7 @@ module.exports = {
     new ExtractTextPlugin('formio.css')
   ],
   externals: {
-    jquery: 'jquery',
+    jquery: 'jQuery',
     angular: 'angular'
   },
   devtool: 'source-map',
